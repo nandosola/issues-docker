@@ -19,7 +19,7 @@ Picked up and categorized subjectively from https://github.com/docker/docker/iss
 |:white_large_square: [AUFS ML 2016-03-08](https://sourceforge.net/p/aufs/mailman/message/34917261/)|Hang up related to `O_DIRECT`|:scream: High|:smiley: Easy|Unanalyzed|None|Percona is known to be affected|
 |:white_large_square: [#24309](https://github.com/docker/docker/issues/24309)|Unable to remove files previously committed |:scream: High|:smiley: Easy|Unanalyzed|[This article seems related, but perhaps slightly different](https://github.com/yokogawa-k/aufs-directories-undeletable-bug)(Japanese)|
 |:white_square_button: [#34361](https://github.com/docker/docker/issues/34361)|AUFS + XFS hangs up |:scream: High|:smiley: Easy|AUFS bug|[Update AUFS](https://github.com/moby/moby/issues/34361#issuecomment-320861506)|
-|:white_check_mark: [#22207](https://github.com/moby/moby/issues/22207)|Orphaned diffs are eating my free space |:neutral_face: Medium|:scream: Hard|AUFS bug|[Update to 17.06.2-ce](https://github.com/moby/moby/issues/22207#issuecomment-327457187)||
+|:white_check_mark: [#22207](https://github.com/moby/moby/issues/22207)|Orphaned diffs are eating my free space |:neutral_face: Medium|:scream: Hard|Docker bug|[Update to 17.06.2-ce](https://github.com/moby/moby/issues/22207#ref-commit-7a8d5be) or apply [this hotfix](https://github.com/moby/moby/issues/22207#issuecomment-322707352)||
 
 Non-bug issues:
 * AUFS is not available in the mainline kernel．Only a few distros (Ubuntu, Boot2Docker, ..) support AUFS, but even for Ubuntu, Canonical says ["AUFS will disappear"](https://lists.ubuntu.com/archives/ubuntu-devel/2012-March/034880.html).

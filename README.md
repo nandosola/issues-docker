@@ -107,7 +107,7 @@ Non-bug issues:
 
 It totally depends on your workload, but Docker, Inc. says AUFS and Devicemapper (direct-lvm) are "production-ready".
 
-https://github.com/docker/docker/blob/master/docs/userguide/storagedriver/selectadriver.md#future-proofing
+https://github.com/docker/docker.github.io/blob/master/engine/userguide/storagedriver/selectadriver.md
 
 ![driver-pros-and-cons.png](https://raw.githubusercontent.com/docker/docker/89923c1f32aeff5bf11fbb04723dd0e154559545/docs/userguide/storagedriver/images/driver-pros-cons.png)
 
